@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AuthService/AuthService.csproj" />
+  <Project Path="MemberService/MemberService.csproj" />
+</Solution>
