@@ -1,0 +1,95 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+[Pp]ublish/
+
+# Visual Studio / Rider user files
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.iml
+*.rsuser
+
+# VS Code: keep shared project configuration
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+
+# Tests, coverage and logs
+[Tt]est[Rr]esults/
+coverage/
+*.trx
+*.coverage
+*.coveragexml
+coverage.cobertura.xml
+coverage.opencover.xml
+*.log
+logs/
+
+# NuGet generated packages and local package folders
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.env
+!*.env.example
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+secrets/
+*.pfx
+*.p12
+*.key
+*.publishsettings
+*.pubxml.user
+
+# Local SQLite databases (keep EF migrations and SQL scripts)
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+
+# Local Docker bind-mount data (use these folders for runtime data)
+/docker-data/
+/volumes/
+
+# Frontend generated files
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.angular/
+.vite/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+*.swp
+*~
